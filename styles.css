@@ -11,6 +11,7 @@ body{
     background-size: 100vw 100vh;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
+
 }
 .main{
     width: 100vw;
@@ -61,7 +62,8 @@ a{
     padding: 5px 20px;
 }
 .table a{
-    width: 200px;}
+    width: 200px;
+}
 .flex p{
     width: 250px;
 }
@@ -76,10 +78,12 @@ a{
 }
 .row2:hover,.row3:hover,.row4:hover,.row5:hover,.row6:hover,.row7:hover,
 .raina:hover,.harbhajan:hover,.khan:hover,.munaf:hover,.sree:hover
-
 {
     .none{
         display: block;
         position: absolute;
     }
+}
+footer{
+    padding-top: 20px;
 }
