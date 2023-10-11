@@ -6,16 +6,25 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png");
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 
 }
 .main{
     width: 100vw;
     height: 100vh;
+    padding: 20px 0 0 40px;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png");
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    background-position: right top;
 }
 .left{
     width: 60%;
@@ -29,11 +38,21 @@ body{
 }
 .header{
     width: 100vw;
-    padding: 10px 20px 0 0;
+    height: 50px;
+    padding: 10px 10% 0 0;
+    font-size: 20px;
 }
-.left h5{
-    padding-top: 10px;
-    font-weight: 100;
+.left h4{
+    padding-top:10px;
+    font-weight:lighter;
+    color: rgba(40, 35, 35, 0.756)
+}
+.left h1{
+    padding-top:20px;
+    text-shadow: 0px 4px 2px rgba(151, 151, 151, 1);
+}
+.left p{
+    color: rgb(77, 70, 70);
 }
 .flex{
     display: flex;
@@ -46,12 +65,14 @@ body{
 }
 .table{
     margin: 5% 0;
-    width: 60%;
-    height: 57%;
+    width: 70%;
+    height: 59%;
     background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 a{
     text-decoration: none;
+    color: blue;
 }
 .t-head{
     height: 40px;
@@ -59,7 +80,7 @@ a{
     color: white;
 }
 .table .flex{
-    padding: 5px 20px;
+    padding: 5px 0 5px 20px ;
 }
 .table a{
     width: 200px;
@@ -76,6 +97,9 @@ a{
 .row10.left{
     width: 100%;
 }
+.row10 p{
+    width: 35.5%;
+}
 .row2:hover,.row3:hover,.row4:hover,.row5:hover,.row6:hover,.row7:hover,
 .raina:hover,.harbhajan:hover,.khan:hover,.munaf:hover,.sree:hover
 {
@@ -86,4 +110,8 @@ a{
 }
 footer{
     padding-top: 20px;
+}
+.end{
+    padding-right: 20px;
+    text-align: end;
 }
