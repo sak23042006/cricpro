@@ -31,28 +31,30 @@ body{
 }
 .table .right{
     width: 30%;
-
 }
-.table.right{
+.table .right{
     width: 40%;
+}
+.right img{
+    width: 200px;
 }
 .header{
     width: 100vw;
     height: 50px;
-    padding: 10px 10% 0 0;
-    font-size: 20px;
+    padding: 10px 8% 0 0;
+    font-size: 25px;
 }
 .left h4{
-    padding-top:10px;
+    padding-top:5px;
     font-weight:lighter;
     color: rgba(40, 35, 35, 0.756)
 }
 .left h1{
-    padding-top:20px;
+    padding-top:15px;
     text-shadow: 0px 4px 2px rgba(151, 151, 151, 1);
 }
 .left p{
-    color: rgb(77, 70, 70);
+    color: rgba(0, 0, 0, 0.495);
 }
 .flex{
     display: flex;
@@ -65,7 +67,7 @@ body{
 }
 .table{
     margin: 5% 0;
-    width: 70%;
+    width: 65%;
     height: 59%;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -87,6 +89,7 @@ a{
 }
 .flex p{
     width: 250px;
+    padding-right: 50px;
 }
 .row1,.row2,.row3,.row4,.row5,.row6,.row7,.row8,.row9{
     border-bottom: 0.01px solid rgba(0, 0, 0, 0.242);
@@ -98,7 +101,7 @@ a{
     width: 100%;
 }
 .row10 p{
-    width: 35.5%;
+    width: 34%;
 }
 .row2:hover,.row3:hover,.row4:hover,.row5:hover,.row6:hover,.row7:hover,
 .raina:hover,.harbhajan:hover,.khan:hover,.munaf:hover,.sree:hover
@@ -109,7 +112,7 @@ a{
     }
 }
 footer{
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .end{
     padding-right: 20px;
