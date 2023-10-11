@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,500&family=Roboto&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+.left{
+    width: 60%;
+}
+.table .right{
+    width: 30%;
+
+}
+.table.right{
+    width: 40%;
+}
+.header{
+    width: 100vw;
+    padding: 10px 20px 0 0;
+}
+.left h5{
+    padding-top: 10px;
+    font-weight: 100;
+}
+.flex{
+    display: flex;
+}
+.spc-btwn{
+    justify-content: space-between;
+}
+.none{
+    display: none;
+}
+.table{
+    margin: 5% 0;
+    width: 60%;
+    height: 57%;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}
+.t-head{
+    height: 40px;
+    background-color: orangered;
+    color: white;
+}
+.table .flex{
+    padding: 5px 20px;
+}
+.table a{
+    width: 200px;}
+.flex p{
+    width: 250px;
+}
+.row1,.row2,.row3,.row4,.row5,.row6,.row7,.row8,.row9{
+    border-bottom: 0.01px solid rgba(0, 0, 0, 0.242);
+}
+.row10{
+    width: 100%;
+}
+.row10.left{
+    width: 100%;
+}
+.row2:hover,.row3:hover,.row4:hover,.row5:hover,.row6:hover,.row7:hover,
+.raina:hover,.harbhajan:hover,.khan:hover,.munaf:hover,.sree:hover
+
+{
+    .none{
+        display: block;
+        position: absolute;
+    }
+}
